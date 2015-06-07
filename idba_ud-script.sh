@@ -28,5 +28,5 @@ cp $DATAPATH/*.fasta $TEMPDATA
 # Run IDBA_UD (De Novo Assembly)
 $IDBAPATH/idba_ud --num_threads 96 -r $TEMPDATA/*.fasta -o $TEMPOUTPUT
 
-# Copy data from scratch
+# Move data from scratch
 mv $TEMPOUTPUT/* $OUTPUTPATH/
