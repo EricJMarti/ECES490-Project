@@ -1,7 +1,7 @@
 # ECES 490 Final Project
 ### Analysis of Cyanobacteria from Pennsylvania Soil Samples
 
-Given three metagenomic samples from an enrichment culture isolated from local Pennsylvania soil, identify at least two strains of cyanobacteria.
+Given metagenomic samples from an enrichment culture isolated from local Pennsylvania soil, identify at least two strains of cyanobacteria.
 
 ### Workflow:
 
