@@ -37,7 +37,7 @@ For more information about MaxBin, click [here](http://downloads.jbei.org/data/m
 reads=(1_S1_L001.fasta  2_S2_L001.fasta  3_S3_L001.fasta)
 
 ## Run MaxBin
-$MAXBINPATH/run_MaxBin.pl -thread 96 -contig $DATAPATH/scaffold.fa -out cyanobacteria -reads $READSPATH/${reads[0]} -reads2 $READSPATH/${reads[1]} -reads3 $READSPATH/${reads[2]}
+$MAXBINPATH/run_MaxBin.pl -thread 96 -contig $DATAPATH/scaffold.fa -out cyanobacteria -plotmarker -reads $READSPATH/${reads[0]} -reads2 $READSPATH/${reads[1]} -reads3 $READSPATH/${reads[2]}
 ```
 
 MaxBin returned the files below. We have six bins, meaning there are six unique species of cyanobacteria in the samples.
@@ -55,9 +55,15 @@ cyanobacteria.abund3
 cyanobacteria.abundance
 cyanobacteria.log
 cyanobacteria.marker
+cyanobacteria.marker.pdf
 cyanobacteria.noclass
 cyanobacteria.summary
 cyanobacteria.tooshort
 ```
+
+This is the output graph from the -plotmarker flag:
+
+![cyanobacteria.marker.pdf](https://github.com/EricJMarti/ECES490-Project/blob/master/cyanobacteria.marker.jpg?raw=true "cyanobacteria.marker.pdf")
+
 
 ##### MEGAN
