@@ -40,7 +40,7 @@ reads=(1_S1_L001.fasta  2_S2_L001.fasta  3_S3_L001.fasta)
 $MAXBINPATH/run_MaxBin.pl -thread 96 -contig $DATAPATH/scaffold.fa -out cyanobacteria -plotmarker -reads $READSPATH/${reads[0]} -reads2 $READSPATH/${reads[1]} -reads3 $READSPATH/${reads[2]}
 ```
 
-MaxBin returned the files below. We have six bins, meaning there are six unique species of cyanobacteria in the samples.
+MaxBin returned the files below. We have six bins, meaning there are six unique species across all of the samples.
 
 ```
 cyanobacteria.001.fasta
