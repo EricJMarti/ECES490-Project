@@ -89,7 +89,7 @@ Here we see the overall tree...
 
 ![taxonomy1.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy1.png?raw=true "taxonomy1.png")
 
-And here we see the cyanobacteria branch. Only one identified species of cyanobacteria.
+And here we see the cyanobacteria branch. Only one identified species of cyanobacteria: Nostoc punctiforme PCC 73102
 
 ![taxonomy2.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy2.png?raw=true "taxonomy2.png")
 
