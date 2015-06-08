@@ -100,4 +100,5 @@ Many of the results have been proteobacteria.
 Here are several charts to better visualize the distribution of cyanobacteria to proteobacteria in these samples.
 
 ![taxonomy4.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy4.png?raw=true "taxonomy4.png")
+![taxonomy6.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy6.png?raw=true "taxonomy6.png")
 ![taxonomy5.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy5.png?raw=true "taxonomy5.png")
