@@ -67,3 +67,37 @@ This is the output graph from the -plotmarker flag:
 
 
 ##### MEGAN
+
+I used Blast on each of the bins in preparation for importing the reads into MEGAN. First, I downloaded the complete Bacteria genome from NCBI and merged them into one Fasta file. I then ran makeblastdb followed by blastn. Note the -outfmt flag. MEGAN is extremely picky with the format of Blast files and only supports -outfmt 0 and -outfmt 7.
+
+```bash
+# Make BLAST DB
+makeblastdb -in $DATAPATH -dbtype nucl -out ./BactDB/BactDB -parse_seqids
+
+# Blast away
+blastn -db ./BactDB/BactDB -outfmt 0 -query $BINPATH/cyanobacteria.001.fasta -out cyanobacteria.001.fasta.blast -num_threads 96
+blastn -db ./BactDB/BactDB -outfmt 0 -query $BINPATH/cyanobacteria.002.fasta -out cyanobacteria.002.fasta.blast -num_threads 96
+blastn -db ./BactDB/BactDB -outfmt 0 -query $BINPATH/cyanobacteria.003.fasta -out cyanobacteria.003.fasta.blast -num_threads 96
+blastn -db ./BactDB/BactDB -outfmt 0 -query $BINPATH/cyanobacteria.004.fasta -out cyanobacteria.004.fasta.blast -num_threads 96
+blastn -db ./BactDB/BactDB -outfmt 0 -query $BINPATH/cyanobacteria.005.fasta -out cyanobacteria.005.fasta.blast -num_threads 96
+blastn -db ./BactDB/BactDB -outfmt 0 -query $BINPATH/cyanobacteria.006.fasta -out cyanobacteria.006.fasta.blast -num_threads 96
+```
+
+I then imported all of the Blast files and bins into MEGAN to get the taxonomic classifications of the bins.
+
+Here we see the overall tree...
+
+![taxonomy1.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy1.png?raw=true "taxonomy1.png")
+
+And here we see the cyanobacteria branch. Only one identified species of cyanobacteria.
+
+![taxonomy2.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy2.png?raw=true "taxonomy2.png")
+
+Many of the results have been proteobacteria.
+
+![taxonomy3.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy3.png?raw=true "taxonomy3.png")
+
+Here are several charts to better visualize the distribution of cyanobacteria to proteobacteria in these samples.
+
+![taxonomy4.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy4.png?raw=true "taxonomy4.png")
+![taxonomy5.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy5.png?raw=true "taxonomy5.png")
