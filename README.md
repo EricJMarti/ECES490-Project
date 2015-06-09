@@ -69,8 +69,18 @@ This is the output graph from the -plotmarker flag:
 
 ![cyanobacteria.marker.pdf](https://github.com/EricJMarti/ECES490-Project/blob/master/cyanobacteria.marker.jpg?raw=true "cyanobacteria.marker.pdf")
 
+The following is a table of abundance data returned by MaxBin:
 
-##### MEGAN
+| Bin name        | 1_S1_L001.fasta | 2_S2_L001.fasta | 3_S3_L001.fasta |
+|-----------------|-----------------|-----------------|-----------------|
+| cyano.001.fasta | 286.02          | 344.80          | 328.68          |
+| cyano.002.fasta | 197.98          | 238.68          | 227.34          |
+| cyano.003.fasta | 19.37           | 29.39           | 26.90           |
+| cyano.004.fasta | 3.73            | 5.10            | 4.58            |
+| cyano.005.fasta | 3.61            | 3.77            | 3.06            |
+| cyano.006.fasta | 2.21            | 1.56            | 1.15            |
+
+##### BLAST
 
 I used Blast on each of the bins in preparation for importing the reads into MEGAN. First, I downloaded the complete Bacteria genome from NCBI and merged them into one Fasta file. I then ran makeblastdb followed by blastn. Note the -outfmt flag. MEGAN is extremely picky with the format of Blast files and only supports -outfmt 0 and -outfmt 7.
 
@@ -87,13 +97,15 @@ blastn -db ./BactDB/BactDB -outfmt 0 -query $BINPATH/cyanobacteria.005.fasta -ou
 blastn -db ./BactDB/BactDB -outfmt 0 -query $BINPATH/cyanobacteria.006.fasta -out cyanobacteria.006.fasta.blast -num_threads 96
 ```
 
-I then imported all of the Blast files and bins into MEGAN to get the taxonomic classifications of the bins.
+##### MEGAN
 
-Here we see the overall tree...
+I then imported all of the Blast files and bins into MEGAN to get the taxonomic classifications of all of the bins.
+
+Here we see the overall tree. Out of 9106 reads total, 1229 reads were assigned to the Cyanobacteria phylum, 6072 reads were assigned to the Proteobacteria phylum, and 1639 reads were marked "No hits." In addition, 15 reads were marked "Not assigned."
 
 ![taxonomy1.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy1.png?raw=true "taxonomy1.png")
 
-And here we see the cyanobacteria branch. Only one identified species of cyanobacteria: Nostoc punctiforme PCC 73102
+And here we see the cyanobacteria branch. We can clearly identify a species of cyanobacteria: Nostoc punctiforme PCC 73102
 
 ![taxonomy2.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy2.png?raw=true "taxonomy2.png")
 
@@ -103,12 +115,16 @@ Many of the results have been proteobacteria.
 
 Here are several charts to better visualize the distribution of cyanobacteria to proteobacteria in these samples.
 
-![taxonomy4.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy4.png?raw=true "taxonomy4.png")
+![taxonomy9.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy9.png?raw=true "taxonomy9.png")
+![taxonomy7.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy7.png?raw=true "taxonomy7.png")
+![taxonomy8.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy8.png?raw=true "taxonomy8.png")
+
+Remove these:
+
 ![taxonomy6.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy6.png?raw=true "taxonomy6.png")
 ![taxonomy5.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy5.png?raw=true "taxonomy5.png")
 
-Here is a chart of the number of assigned reads in this sample:
 
-![taxonomy7.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy7.png?raw=true "taxonomy7.png")
-![taxonomy8.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy8.png?raw=true "taxonomy8.png")
-![taxonomy9.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy9.png?raw=true "taxonomy9.png")
+##### Future Work
+
+There are 1639 reads that scored no hits with the NCBI Bacteria genome. I plan on running Blast on these reads against the entire NCBI database in hopes of identifying these unknown reads. 
