@@ -77,7 +77,7 @@ cyanobacteria.tooshort
 
 This is the output graph from the -plotmarker flag:
 
-![cyanobacteria.marker.pdf](https://github.com/EricJMarti/ECES490-Project/blob/master/cyanobacteria.marker.jpg?raw=true "cyanobacteria.marker.pdf")
+![cyanobacteria.marker.pdf](https://github.com/EricJMarti/ECES490-Project/blob/master/images/cyanobacteria.marker.jpg "cyanobacteria.marker.pdf")
 
 The following is a table of abundance data returned by MaxBin:
 
@@ -122,54 +122,54 @@ I then imported all of the Blast files and bins into MEGAN to get the taxonomic 
 
 Here we see the overall tree. Out of 9106 reads total, 1229 reads were assigned to the Cyanobacteria phylum, 6072 reads were assigned to the Proteobacteria phylum, and 1639 reads were marked "No hits." In addition, 15 reads were marked "Not assigned."
 
-![taxonomy1.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy1.png?raw=true "taxonomy1.png")
+![taxonomy1.png](https://github.com/EricJMarti/ECES490-Project/blob/master/images/taxonomy1.png "taxonomy1.png")
 
 And here we see the cyanobacteria branch. We can clearly identify a species of cyanobacteria: Nostoc punctiforme PCC 73102
 
-![taxonomy2.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy2.png?raw=true "taxonomy2.png")
+![taxonomy2.png](https://github.com/EricJMarti/ECES490-Project/blob/master/images/taxonomy2.png "taxonomy2.png")
 
 Many of the results have been proteobacteria.
 
-![taxonomy3.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy3.png?raw=true "taxonomy3.png")
+![taxonomy3.png](https://github.com/EricJMarti/ECES490-Project/blob/master/images/taxonomy3.png "taxonomy3.png")
 
 The following is a chart to better visualize the distribution of cyanobacteria to proteobacteria in these samples:
 
-![taxonomy9.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy9.png?raw=true "taxonomy9.png")
+![taxonomy9.png](https://github.com/EricJMarti/ECES490-Project/blob/master/images/taxonomy9.png "taxonomy9.png")
 
 The following is a distribution of assigned reads in the Cyanobacteria phylum:
 
-![taxonomy7.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy7.png?raw=true "taxonomy7.png")
-![taxonomy10.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy10.png?raw=true "taxonomy10.png")
+![taxonomy7.png](https://github.com/EricJMarti/ECES490-Project/blob/master/images/taxonomy7.png "taxonomy7.png")
+![taxonomy10.png](https://github.com/EricJMarti/ECES490-Project/blob/master/images/taxonomy10.png "taxonomy10.png")
 
 The following is a distribution of assigned reads in the Proteobacteria phylum:
 
-![taxonomy8.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy8.png?raw=true "taxonomy8.png")
+![taxonomy8.png](https://github.com/EricJMarti/ECES490-Project/blob/master/images/taxonomy8.png "taxonomy8.png")
 
 ##### Individual Bins
 
 Bin 1:
 
-![bin1.png](https://github.com/EricJMarti/ECES490-Project/blob/master/bin1.png?raw=true "bin1.png")
+![bin1.png](https://github.com/EricJMarti/ECES490-Project/blob/master/images/bin1.png "bin1.png")
 
 Bin 2:
 
-![bin2.png](https://github.com/EricJMarti/ECES490-Project/blob/master/bin2.png?raw=true "bin2.png")
+![bin2.png](https://github.com/EricJMarti/ECES490-Project/blob/master/images/bin2.png "bin2.png")
 
 Bin 3:
 
-![bin3.png](https://github.com/EricJMarti/ECES490-Project/blob/master/bin3.png?raw=true "bin3.png")
+![bin3.png](https://github.com/EricJMarti/ECES490-Project/blob/master/images/bin3.png "bin3.png")
 
 Bin 4:
 
-![bin4.png](https://github.com/EricJMarti/ECES490-Project/blob/master/bin4.png?raw=true "bin4.png")
+![bin4.png](https://github.com/EricJMarti/ECES490-Project/blob/master/images/bin4.png "bin4.png")
 
 Bin 5:
 
-![bin5.png](https://github.com/EricJMarti/ECES490-Project/blob/master/bin5.png?raw=true "bin5.png")
+![bin5.png](https://github.com/EricJMarti/ECES490-Project/blob/master/images/bin5.png "bin5.png")
 
 Bin 6:
 
-![bin6.png](https://github.com/EricJMarti/ECES490-Project/blob/master/bin6.png?raw=true "bin6.png")
+![bin6.png](https://github.com/EricJMarti/ECES490-Project/blob/master/images/bin6.png "bin6.png")
 
 ##### Future Work
 
