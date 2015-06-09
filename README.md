@@ -11,8 +11,6 @@ Source: http://news.psu.edu/story/347590/2015/03/06/research/cyanobacteria-could
 
 Dr. Bruns believes that there are two closely related cyanobacteria in the samples from the Nostocaceae family. She says that there may be other bacteria in the samples. She specifically identified Bosea, which is an alpha proteobacteria in the Rhizobiales family. She also said that there may be "one or more gamma proteobacteria like Stenotrophomonas and Pseudomonas."
 
-Xin, my graduate student has tried to purify this mixture into single strains, but it has not been possible. We therefore suspect other bacteria in this mixture, based on the 16S rRNA results. One is Bosea, a member of the alpha proteobacteria in the Rhizobiales family. This member might be able to fix N2 but it is likely to be “feeding off” the organic carbon fixed by the photosynthetic members of the consortium. There may be one or more gamma proteobacteria like Stenotrophomonas and Pseudomonas.
-
 ### Workflow:
 
 ##### IDBA-UD
