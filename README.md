@@ -90,6 +90,15 @@ The following is a table of abundance data returned by MaxBin:
 | cyano.005.fasta | 3.61            | 3.77            | 3.06            |
 | cyano.006.fasta | 2.21            | 1.56            | 1.15            |
 
+| Bin name        | 1_S1_L001.fasta | 2_S2_L001.fasta | 3_S3_L001.fasta |
+|-----------------|-----------------|-----------------|-----------------|
+| cyano.001.fasta | 55.76%          | 55.32%          | 55.55%          |
+| cyano.002.fasta | 38.60%          | 38.29%          | 38.42%          |
+| cyano.003.fasta | 3.78%           | 4.72%           | 4.55%           |
+| cyano.004.fasta | 0.73%           | 0.82%           | 0.77%           |
+| cyano.005.fasta | 0.70%           | 0.60%           | 0.52%           |
+| cyano.006.fasta | 0.43%           | 0.25%           | 0.19%           |
+
 ##### BLAST
 
 I used Blast on each of the bins in preparation for importing the reads into MEGAN. First, I downloaded the complete Bacteria genome from NCBI and merged them into one Fasta file. I then ran makeblastdb followed by blastn. Note the -outfmt flag. MEGAN is extremely picky with the format of Blast files and only supports -outfmt 0 and -outfmt 7.
