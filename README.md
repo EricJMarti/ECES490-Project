@@ -3,9 +3,15 @@
 
 Given three metagenomic samples from an enrichment culture isolated from local Pennsylvania soil, identify at least two strains of cyanobacteria.
 
-All three samples came from a replicate enrichment culture, meaning there should not be any significant differences between samples. 
+All three samples came from a replicate enrichment culture, meaning there should not be any significant differences between samples. The original sample came from "photosynthetic crust" from the surface of soil in a greenhouse.
 
-Dr. Brun believes that there are two closely related cyanobacteria in the samples from the Nostocaceae family.
+![cyanobacteria%20biofilm%20Bruns.PNG](http://news.psu.edu/sites/default/files/styles/threshold-992/public/cyanobacteria%20biofilm%20Bruns.PNG "cyanobacteria biofilm Bruns.PNG")
+
+Source: http://news.psu.edu/story/347590/2015/03/06/research/cyanobacteria-could-help-manage-nitrogen-benefit-chesapeake-bay
+
+Dr. Bruns believes that there are two closely related cyanobacteria in the samples from the Nostocaceae family. She says that there may be other bacteria in the samples. She specifically identified Bosea, which is an alpha proteobacteria in the Rhizobiales family. She also said that there may be "one or more gamma proteobacteria like Stenotrophomonas and Pseudomonas."
+
+Xin, my graduate student has tried to purify this mixture into single strains, but it has not been possible. We therefore suspect other bacteria in this mixture, based on the 16S rRNA results. One is Bosea, a member of the alpha proteobacteria in the Rhizobiales family. This member might be able to fix N2 but it is likely to be “feeding off” the organic carbon fixed by the photosynthetic members of the consortium. There may be one or more gamma proteobacteria like Stenotrophomonas and Pseudomonas.
 
 ### Workflow:
 
@@ -113,17 +119,44 @@ Many of the results have been proteobacteria.
 
 ![taxonomy3.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy3.png?raw=true "taxonomy3.png")
 
-Here are several charts to better visualize the distribution of cyanobacteria to proteobacteria in these samples.
+The following is a chart to better visualize the distribution of cyanobacteria to proteobacteria in these samples:
 
 ![taxonomy9.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy9.png?raw=true "taxonomy9.png")
+
+The following is a distribution of assigned reads in the Cyanobacteria phylum:
+
 ![taxonomy7.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy7.png?raw=true "taxonomy7.png")
+![taxonomy10.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy10.png?raw=true "taxonomy10.png")
+
+The following is a distribution of assigned reads in the Proteobacteria phylum:
+
 ![taxonomy8.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy8.png?raw=true "taxonomy8.png")
 
-Remove these:
+##### Individual Bins
 
-![taxonomy6.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy6.png?raw=true "taxonomy6.png")
-![taxonomy5.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy5.png?raw=true "taxonomy5.png")
+Bin 1:
 
+![bin1.png](https://github.com/EricJMarti/ECES490-Project/blob/master/bin1.png?raw=true "bin1.png")
+
+Bin 2:
+
+![bin2.png](https://github.com/EricJMarti/ECES490-Project/blob/master/bin2.png?raw=true "bin2.png")
+
+Bin 3:
+
+![bin3.png](https://github.com/EricJMarti/ECES490-Project/blob/master/bin3.png?raw=true "bin3.png")
+
+Bin 4:
+
+![bin4.png](https://github.com/EricJMarti/ECES490-Project/blob/master/bin4.png?raw=true "bin4.png")
+
+Bin 5:
+
+![bin5.png](https://github.com/EricJMarti/ECES490-Project/blob/master/bin5.png?raw=true "bin5.png")
+
+Bin 6:
+
+![bin6.png](https://github.com/EricJMarti/ECES490-Project/blob/master/bin6.png?raw=true "bin6.png")
 
 ##### Future Work
 
