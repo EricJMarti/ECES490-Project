@@ -11,6 +11,12 @@ Source: http://news.psu.edu/story/347590/2015/03/06/research/cyanobacteria-could
 
 Dr. Bruns believes that there are two closely related cyanobacteria in the samples from the Nostocaceae family. She says that there may be other bacteria in the samples. She specifically identified Bosea, which is an alpha proteobacteria in the Rhizobiales family. She also said that there may be "one or more gamma proteobacteria like Stenotrophomonas and Pseudomonas."
 
+### Pipeline:
+* De Novo Assembly (IDBA-UD)
+* MaxBin
+* BLAST
+* MEGAN
+
 ### Workflow:
 
 ##### IDBA-UD
