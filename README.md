@@ -1,7 +1,11 @@
 # ECES 490 Final Project
-### Analysis of Cyanobacteria from Pennsylvania Soil Samples
+### Analysis of Dr. Bruns Pennsylvania Soil Samples
 
-Given metagenomic samples from an enrichment culture isolated from local Pennsylvania soil, identify at least two strains of cyanobacteria.
+Given three metagenomic samples from an enrichment culture isolated from local Pennsylvania soil, identify at least two strains of cyanobacteria.
+
+All three samples came from a replicate enrichment culture, meaning there should not be any significant differences between samples. 
+
+Dr. Brun believes that there are two closely related cyanobacteria in the samples from the Nostocaceae family.
 
 ### Workflow:
 
@@ -102,3 +106,9 @@ Here are several charts to better visualize the distribution of cyanobacteria to
 ![taxonomy4.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy4.png?raw=true "taxonomy4.png")
 ![taxonomy6.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy6.png?raw=true "taxonomy6.png")
 ![taxonomy5.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy5.png?raw=true "taxonomy5.png")
+
+Here is a chart of the number of assigned reads in this sample:
+
+![taxonomy7.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy7.png?raw=true "taxonomy7.png")
+![taxonomy8.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy8.png?raw=true "taxonomy8.png")
+![taxonomy9.png](https://github.com/EricJMarti/ECES490-Project/blob/master/taxonomy9.png?raw=true "taxonomy9.png")
